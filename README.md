@@ -4,11 +4,11 @@
 #### (API for triggering emails using the AWS SES (Amazon Simple Email Service) service.)
 
 ## Tecnologias utilizadas (Technologies used):
-- Java 21
+- Java 21;
 - Spring Boot 3; 
-- Spring Web (RESTful)
-- Maven
-- AWS SES (Amazon Simple Email Service)
+- Spring Web (RESTful);
+- Maven;
+- AWS SES (Amazon Simple Email Service);
 
 ## Benefícios (Benefits): 
 - Automatização eficiente do processo de envio de e-mails na plataforma AWS utilizando o serviço SES.
