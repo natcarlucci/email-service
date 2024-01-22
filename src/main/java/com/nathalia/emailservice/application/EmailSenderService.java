@@ -3,7 +3,9 @@ package com.nathalia.emailservice.application;
 import com.nathalia.emailservice.adapters.EmailSenderGateway;
 import com.nathalia.emailservice.core.EmailSenderUseCase;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
+@Service
 public class EmailSenderService implements EmailSenderUseCase {
 
     private final EmailSenderGateway emailSenderGateway;
@@ -18,12 +20,3 @@ public class EmailSenderService implements EmailSenderUseCase {
         this.emailSenderGateway.sendEmail(to, subject, body);
     }
 }
-
-
-
-
-
-
-
-
-
